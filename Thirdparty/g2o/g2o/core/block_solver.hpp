@@ -66,6 +66,11 @@ void BlockSolver<Traits>::resize(int* blockPoseIndices, int numPoseBlocks,
               int* blockLandmarkIndices, int numLandmarkBlocks,
               int s)
 {
+   if (_sizePoses <= 0) {
+    std::cerr << "Error: _sizePoses must be greater than 0." <<_sizePoses<< std::endl;
+    return;
+  }
+  
   deallocate();
 
   resizeVector(s);

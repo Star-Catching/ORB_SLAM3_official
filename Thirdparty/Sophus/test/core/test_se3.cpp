@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include </home/wxz/SLAM_code/ORB_SLAM3_ros/Thirdparty/Sophus/sophus/se3.hpp>
+#include </home/wxz/SLAM_code/ORB_SLAM3_0/Thirdparty/Sophus/sophus/se3.hpp>
 #include "tests.hpp"
 
 // Explicit instantiate all class templates so that all member methods
